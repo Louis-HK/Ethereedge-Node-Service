@@ -1,21 +1,21 @@
 # EtherEdge / PrivChain RPC
 
-Service de nœuds Ethereum privés optimisés pour MEV, arbitrage et bots à faible latence.  
-Endpoint dédié RPC/WebSocket, onboarding rapide, monitoring, rotation de clés API et support direct.
+Private Ethereum nodes optimized for MEV, arbitrage, and low-latency bots.  
+Dedicated RPC/WebSocket endpoint, fast onboarding, monitoring, API key rotation, and direct support.
 
-## 🚀 Features principales
-- Endpoint Ethereum dédié (RPC et WebSocket) : pas de noisy neighbor.  
-- Provisioning automatisé en <30 minutes.  
-- API key simple pour contrôle d’accès.  
-- Monitoring & healthcheck de base.  
-- Comparatif de latence (à fournir au client).  
-- Support avec SLA (Slack/Telegram ou autre).  
+## 🚀 Key Features
+- Dedicated Ethereum endpoint (RPC and WebSocket) – no noisy neighbors.  
+- Automated provisioning in under 30 minutes.  
+- Simple API key access control.  
+- Basic monitoring & health checks.  
+- Latency comparison reports for clients.  
+- SLA-based support (Slack/Telegram or other).
 
-## 📦 Installation rapide (exemple)
+## 📦 Quick Setup (Example)
 
 ```bash
-git clone https://github.com/tonCompte/ethereedge-node-service.git
+git clone https://github.com/yourAccount/ethereedge-node-service.git
 cd provisioning
 chmod +x install_geth.sh setup_rpc.sh
-./install_geth.sh          # installe Geth et lance la sync
-./setup_rpc.sh --key abc123  # configure le reverse proxy + API key
+./install_geth.sh            # install Geth and start syncing
+./setup_rpc.sh --key abc123  # configure reverse proxy + API key
