@@ -1,4 +1,4 @@
-# EtherEdge / PrivChain RPC (nom à finaliser)
+# EtherEdge / PrivChain RPC 
 
 Service de nœuds Ethereum privés optimisés pour MEV, arbitrage et bots à faible latence.
 
@@ -10,7 +10,7 @@ Service de nœuds Ethereum privés optimisés pour MEV, arbitrage et bots à fai
 - Comparatif de latence vs Infura/QuickNode fourni.  
 - Support direct (Slack/Telegram) avec SLA.
 
-## 📦 Déploiement rapide (exemple)
+## 📦 Déploiement rapide 
 ```bash
 git clone https://github.com/tonCompte/ethereedge-node-service.git
 cd provisioning
